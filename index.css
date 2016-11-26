@@ -1,7 +1,7 @@
 
 body.page-wrap {
-     width: 800px;
-     margin: 0 auto;
+     width: 500px;
+     margin: 0 auto auto 0;
 }
 ul.topnav {
   list-style-type: none;
