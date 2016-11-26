@@ -1,17 +1,97 @@
 <!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "utf = 8"/>
+	<title>Sarvesh Chakardeo</title>
+	<link rel = "stylesheet" href="main.css">
+</head>
+<body>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-    <body>
-      <h1> Sarvesh Chakradeo</h1>
-      <h2> 
-        <ul> 
-          <li> HOME </li>
-          <li> EXPERIENCE </li>
-          <li> EDUCATION </li>
-          <li> PROJECTS </li>
-        </ul>
-      </h2>  
-    </body>
+<head>
+<style>
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li.icon {display: none;}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">SARVESH CHAKRADEO</a></li>
+  <center><li><a href="file:///C:/Users/kaustubh/Google%20Drive/ws/source%20codes/epp.html">EXPERIENCE </a></li>
+  <li><a href="file:///C:/Users/kaustubh/Google%20Drive/ws/source%20codes/ed.html">EDUCATION</a></li></center>
+  <li><a href ="file:///C:/Users/kaustubh/Google%20Drive/ws/source%20codes/proj.html">PROJECTS</a></li>
+  <li><a href ="file:///C:/Users/kaustubh/Google%20Drive/ws/source%20codes/skills.html">SKILLS</a></li>  
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
+<div style="padding-left:16px">
+ <h2>Hello! I'm Sarvesh
+(That's sir-way-shh)</h2>
+  <p>
+
+I grew up in Pune, India. I moved to USA as a graduate student in 2015.<br>
+I'm a Mechanical Engineer interested in building things.<br>
+Along with mechanical designs, I also love to tinker around with electronics.<br>
+I love to travel, cook delicious (vegetarian) meals and of course, technology.<br>
+Click around to know more about me..</p>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
 </html>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
