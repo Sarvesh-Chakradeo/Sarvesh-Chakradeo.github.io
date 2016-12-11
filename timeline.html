@@ -54,7 +54,8 @@ ul.topnav li.icon {display: none;}
 		display:inline; list-style-type: none;}
 
 table { border-collapse: collapse; }
-	tr { border: none; }
+	tr { border: none;
+	border-collapse: collapse;}
 	th, td {
 		border-left: solid 1px #000;
 		border-right: solid 1px #000;
@@ -62,6 +63,13 @@ table { border-collapse: collapse; }
     font-family: Calibri;
 text-align: left;
 	}
+	table td:first-child {
+border-left: none;
+}
+
+table td:last-child {
+border-right: none;
+}
 	</style>
 
 <body>
